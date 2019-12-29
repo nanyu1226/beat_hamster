@@ -26,6 +26,7 @@
         属性：正常进出洞图片  被击中图片
         方法：正常进出洞图片  随机从一个仓鼠洞露出 和隐藏  （一旦被击中，更换成被击中的图片）
 """
+import os
 import random
 
 import pygame
@@ -242,7 +243,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-
+    # main()
+    os.getcwd()
 
 
